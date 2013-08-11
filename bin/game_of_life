@@ -1,0 +1,5 @@
+#!/bin/env ruby
+require_relative '../app/game_of_life_app'
+
+game = GameOfLiveApp.new
+game.run
